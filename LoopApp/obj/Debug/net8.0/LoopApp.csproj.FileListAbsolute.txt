@@ -1,0 +1,14 @@
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/bin/Debug/net8.0/LoopApp
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/bin/Debug/net8.0/LoopApp.deps.json
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/bin/Debug/net8.0/LoopApp.runtimeconfig.json
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/bin/Debug/net8.0/LoopApp.dll
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/bin/Debug/net8.0/LoopApp.pdb
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.AssemblyInfoInputs.cache
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.AssemblyInfo.cs
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.csproj.CoreCompileInputs.cache
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.dll
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/refint/LoopApp.dll
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.pdb
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.genruntimeconfig.cache
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/ref/LoopApp.dll
