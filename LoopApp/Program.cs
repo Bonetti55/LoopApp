@@ -9,6 +9,7 @@ namespace LoopApp
             Console.WriteLine("Введите привет или пока :)");
             string str = Console.ReadLine();
 
+            //Разбить на методы!
             if (str == "привет")
             {
                 Console.WriteLine("Привет! Как у тебя дела?");
