@@ -12,3 +12,4 @@
 /Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.pdb
 /Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.genruntimeconfig.cache
 /Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/ref/LoopApp.dll
+/Users/semyoniuditskii/Desktop/My repository/LoopApp/LoopApp/obj/Debug/net8.0/LoopApp.sourcelink.json
