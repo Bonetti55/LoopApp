@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoopApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+562c1bf5e06dcfd5f5862af3e00132f2cb7e79bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoopApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoopApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
