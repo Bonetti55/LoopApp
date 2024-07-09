@@ -6,68 +6,65 @@ namespace LoopApp
     {
         static void Main()
         {
-            Console.WriteLine("Введите привет или пока :)");
-            string str = Console.ReadLine();
-
-            //Разбить на методы!
-            if (str == "привет")
+            Talking();
+        }
+        
+        static void Talking()
+        {
+            Console.WriteLine("Добро пожаловать в говорилку Bonetti giga chat v1.1, для начала диалога введите 'привет' или 'пока'");
+            string message = Console.ReadLine();
+            if (message == "привет")
             {
                 Console.WriteLine("Привет! Как у тебя дела?");
-                str = Console.ReadLine();
-                if (str == "хорошо")
+                message = Console.ReadLine();
+                if (message == "хорошо")
                 {
                     Console.WriteLine("Как тебя зовут?");
-                    str = Console.ReadLine();
-                    if (str == $"{str}")
+                    message = Console.ReadLine();
+                    if (message == $"{message}")
                     {
-                        Console.WriteLine($"Приятно познакомиться {str}, Сколько тебе лет?");
-                        int age = Convert.ToInt32(Console.ReadLine());
-                        if (age < 10)
-                        {
-                            Console.WriteLine("Иди дневник заполняй!!");
-                        }
-                        else if (age > 10)
-                        {
-                            Console.WriteLine("Долгих лет тебе!");
-                        }
-
-                        else
-                        {
-                            Console.WriteLine("Ты что робот?");
-                        }
-                        
+                        Console.WriteLine($"Приятно познакомится {message}!");
+                        HowAgeYou();
                     }
                     else
                     {
                         Console.WriteLine("Введи имя");
                     }
                 }
-                else if (str == "плохо")
+                else if (message == "плохо")
                 {
                     Console.WriteLine("Котик не грусти :)");
                 }
                 else
                 {
-                    Console.WriteLine("Я тебя не понимаю!");
+                    Console.WriteLine("Я тебя не понимаю");
                 }
             }
-            else if(str == "пока")
+            else if (message == "пока")
             {
-                Console.WriteLine("пока!");
+                Console.WriteLine("Пока!");
             }
             else
             {
                 throw new Exception("Скажите Привет или Пока!");
             }
+        }
 
-            static void Talk()
+        static void HowAgeYou()
+        {
+            Console.WriteLine("Сколько тебе лет?");
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age < 10)
             {
-                
+                Console.WriteLine("Иди Дневник заполняй!");
             }
-
-            static void Age()
+            else if (age > 10)
             {
-                
+                Console.WriteLine("Долгих лет тебе товарищ!");
+            }
+            else
+            {
+                Console.WriteLine("Ты шо робот?");
             }
         }
     }
