@@ -1,73 +1,25 @@
-﻿using System;
+﻿using LoopApp2;
 
 namespace LoopApp
 {
-    class Program
+    internal static class Program
+        
     {
-        static void Main()
+        private static void Main()
         {
-            Console.WriteLine("Введите привет или пока :)");
-            string str = Console.ReadLine();
-
-            //Разбить на методы!
-            if (str == "привет")
+            Console.WriteLine("Добро пожаловать в говорилку Bonetti giga chat v1.1, для начала диалога введите 'привет' или 'пока'");
+            var message = Console.ReadLine();
+            switch (message)
             {
-                Console.WriteLine("Привет! Как у тебя дела?");
-                str = Console.ReadLine();
-                if (str == "хорошо")
-                {
-                    Console.WriteLine("Как тебя зовут?");
-                    str = Console.ReadLine();
-                    if (str == $"{str}")
-                    {
-                        Console.WriteLine($"Приятно познакомиться {str}, Сколько тебе лет?");
-                        int age = Convert.ToInt32(Console.ReadLine());
-                        if (age < 10)
-                        {
-                            Console.WriteLine("Иди дневник заполняй!!");
-                        }
-                        else if (age > 10)
-                        {
-                            Console.WriteLine("Долгих лет тебе!");
-                        }
-
-                        else
-                        {
-                            Console.WriteLine("Ты что робот?");
-                        }
-                        
-                    }
-                    else
-                    {
-                        Console.WriteLine("Введи имя");
-                    }
-                }
-                else if (str == "плохо")
-                {
-                    Console.WriteLine("Котик не грусти :)");
-                }
-                else
-                {
-                    Console.WriteLine("Я тебя не понимаю!");
-                }
-            }
-            else if(str == "пока")
-            {
-                Console.WriteLine("пока!");
-            }
-            else
-            {
-                throw new Exception("Скажите Привет или Пока!");
-            }
-
-            static void Talk()
-            {
-                
-            }
-
-            static void Age()
-            {
-                
+                case "привет":
+                    var calculator = new Calculator();
+                    calculator.AskHowAreYou();
+                    break;
+                case "пока":
+                    Console.WriteLine("Ня, Пока!");
+                    break;
+                default:
+                    throw new Exception("Скажите Привет или Пока!");
             }
         }
     }
